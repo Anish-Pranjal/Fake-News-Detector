@@ -3,7 +3,7 @@ import torch
 from transformers import BertTokenizer, BertForSequenceClassification
 
 # Set page config as the FIRST command
-st.set_page_config(page_title="📰 Fake News Detector", page_icon="📰", layout="centered")
+st.set_page_config(page_title=" Fake News Detector", page_icon="📰", layout="centered")
 
 # Load Model & Tokenizer
 MODEL_PATH = "nets/BERT.ckpt"
