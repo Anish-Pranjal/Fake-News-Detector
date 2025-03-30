@@ -1,0 +1,9 @@
+streamlit
+torch
+torchvision
+torchaudio
+scikit-learn
+pandas
+numpy
+nltk
+transformers
