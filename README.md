@@ -1,4 +1,4 @@
-# Fake-News-Detector
+# Fake News Detector
 
 ## 📌 Project Overview
 The **Fake News Detector** is a web-based application that utilizes machine learning to classify news articles as real or fake. Built using Python and Streamlit, this project aims to combat misinformation by providing users with a simple tool to verify the credibility of news content.
@@ -15,8 +15,8 @@ The **Fake News Detector** is a web-based application that utilizes machine lear
 ## 🛠 Tech Stack
 - **Frontend:** Streamlit
 - **Backend:** Python
-- **Machine Learning:** Scikit-learn (or any ML library used)
-- **Dataset:** (Specify the dataset, e.g., Kaggle Fake News Dataset)
+- **Machine Learning:** BERT (bert-base-uncased)
+- **Dataset:** WELFake Dataset
 
 ## 📖 How to Use?
 1. Open the [Fake News Detector](https://fake-news-detector-a.streamlit.app/).
@@ -42,20 +42,9 @@ streamlit run app.py
 ```
 
 ## 🔍 Model Details
-- **Algorithm Used:** (e.g., Logistic Regression, Random Forest, etc.)
+- **Algorithm Used:** BERT (bert-base-uncased)
 - **Performance Metrics:** (e.g., Accuracy, Precision, Recall, F1-score)
-- **Training Data:** (Provide a brief description of the dataset used)
-
-## 🤝 Contributing
-Contributions are welcome! If you'd like to improve this project:
-- Fork the repository
-- Create a new branch (`git checkout -b feature-branch`)
-- Commit your changes (`git commit -m 'Add new feature'`)
-- Push to the branch (`git push origin feature-branch`)
-- Open a **Pull Request**
-
-## 📜 License
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+- **Training Data:** WELFake Dataset
 
 ---
 
